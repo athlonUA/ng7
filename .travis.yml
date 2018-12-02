@@ -10,4 +10,5 @@ before_script:
   - node -v
 script:
   - npm run build -- --prod
-
+  - npm run test -- --singleRun
+  - npm run e2e
